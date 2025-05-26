@@ -1,0 +1,189 @@
+/* Global font and background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #212529;
+}
+
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    color: #212529;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #4F46E5;
+    border-color: #4F46E5;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #3730A3;
+    border-color: #3730A3;
+}
+
+.btn-secondary {
+    background-color: #F97316;
+    border-color: #F97316;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #C2410C;
+    border-color: #C2410C;
+}
+
+/* Highlighted text */
+.highlight {
+    color: #4F46E5;
+    font-weight: 600;
+}
+
+/* Section headings */
+.section-title {
+    border-left: 5px solid #F97316;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Navbar styling */
+.nav-pills .nav-link.active {
+    background-color: #4F46E5;
+    color: white;
+}
+
+.nav-pills .nav-link {
+    color: #4F46E5;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #e0e7ff;
+    /* light indigo tint */
+    color: #1e1b4b;
+    border: 2px solid #4F46E5;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+footer a {
+    color: #adb5bd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F97316;
+}
+
+
+
+/* name typing effect */
+.typing-effect {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 1s steps(15, end) forwards, blink 0.75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 15ch;
+        /* Adjust to match character length */
+    }
+}
+
+/* Cursor blink */
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #4F46E5;
+    }
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background section with image and gradient overlay */
+.background-section-bike {
+  width: 100vw;
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(79, 70, 229, 0.85), rgba(79, 70, 229, 0.85)),
+    url('media/360_F_380873937_pjPML5kCCMFbjL6cSKVNl05GdclKlRkQ.jpg') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Overlay text styling */
+.overlay-text {
+  color: white;
+  z-index: 2;
+  padding: 20px;
+}
+
+.overlay-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: white; /* explicitly set */
+}
+
+.overlay-text p {
+  font-size: 1.25rem;
+  color: white;
+}
+.background-section-e-com {
+  width: 100vw;
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(79, 70, 229, 0.85), rgba(79, 70, 229, 0.85)),
+    url('media/e-com.png') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.background-section-analytic {
+  width: 100vw;
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(79, 70, 229, 0.85), rgba(79, 70, 229, 0.85)),
+    url('media/analytics.jpg') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.background-section-game {
+  width: 100vw;
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(79, 70, 229, 0.85), rgba(79, 70, 229, 0.85)),
+    url('media/game.webp') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
